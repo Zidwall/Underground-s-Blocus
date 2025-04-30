@@ -19,8 +19,8 @@ class variable:
         self.niveau3 = None
         self.niveau2 = None
         self.niveau1 = None
-        self.world_1_select = False
-        self.world_2_select = True
+        self.world_1_select = True
+        self.world_2_select = False
         self.condition_monde2 = False
         self.message_erreur = False
         self.fond_accueil = pygame.image.load("Image_fond.webp")
