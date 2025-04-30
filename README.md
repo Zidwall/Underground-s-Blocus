@@ -11,7 +11,7 @@ Underground's Blocus
 3. s'assurer que Pygame est installé :
    - Ouvrez un terminal
    - Tapez : pip install pygame
-4. Cloner le code à l'aide de cette commande dans le terminal:
+4. Cloner le jeu dans votre ordinateur à l'aide de cette commande dans le terminal:
 git clone https://github.com/Zidwall/Underground-s-Blocus.git
 
 5. aller dans le dossier du clone que vous venez de créer avec cette commande(toujours dans le terminal):
