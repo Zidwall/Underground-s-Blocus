@@ -80,6 +80,7 @@ while running:
             if variable.niveau == 4:
                 variable.fin_monde()
                 variable.pieces_utilisables += variable.pieces_recoltees
+                variable.world1_init()
             if variable.niveau < variable.objectif_score:
                 variable.screen.fill((0, 0, 0))
                 variable.ancienne_variable += 1
