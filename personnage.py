@@ -1,8 +1,5 @@
 import pygame
 
-
-
-pygame.init()
 from variable import variable
 
 variable = variable()
