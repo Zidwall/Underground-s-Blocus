@@ -1,11 +1,7 @@
 import pygame
 
+import variable
 
-
-pygame.init()
-from variable import variable
-
-variable = variable()
 screen = pygame.display.set_mode((1000, 800))
 class Perso:
     def __init__(self):
@@ -15,8 +11,8 @@ class Perso:
         self.largeur = 25
         self.hauteur = 38
         self.lancement = None
-    def haut(self):
-            if not variable.inversed_gravity:
+    def haut(self, varia:variable):
+            if not varia.inversed_gravity:
                 self.y -= self.vitesse
     def haut_world2(self):
         self.y -= 132

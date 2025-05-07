@@ -1,6 +1,5 @@
 import random
-from variable import variable
-variable = variable()
+
 class Rect:
     def __init__(self):
         self.giant_ecart = 710

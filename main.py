@@ -12,11 +12,13 @@ from variable import variable
 objectif_x = -400
 trying = 0
 pygame.display.set_caption("undergrounds blocus")
+pygame.display.set_icon(pygame.image.load("Icone.webp"))
+
 clock = pygame.time.Clock()
 variable = variable()
 joueur = Perso()
 rect = Rect()
-pygame.display.set_icon(pygame.image.load("Icone.webp"))
+
 variable.screen.blit(variable.fond_accueil, (-200, 0))
 running = True
 prob = set()
@@ -108,7 +110,7 @@ while running:
             variable.screen.blit(variable.fond3, (variable.x_fond3, 0))
 
             if key[pygame.K_UP]:
-                joueur.haut()
+                joueur.haut(variable)
             if key[pygame.K_DOWN]:
                 joueur.bas()
             if rect.x > objectif_x:
