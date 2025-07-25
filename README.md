@@ -25,5 +25,7 @@ cd Underground-s-Blocus
 
 👉 Remarques :
 - Tous les fichiers (images, sons, polices) doivent rester dans les dossiers d'origine.
-- Le jeu a été testé sur Mac/Windows/Linux.	
+- Le jeu a été testé sur Mac/Windows/Linux.
+
+- (jeu réalisé à 14 ans dans le but d'un apprentissage de pygame et des bases de python)
 
